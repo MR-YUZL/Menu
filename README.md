@@ -27,5 +27,5 @@ status='2'
 ```
 
 ## 效果如下：
-      ![blockchain](https://github.com/MR-YUZL/Menu/blob/master/public/12C(JM(XCR%259FVGX%40D%254TX0.png)
+      ![截图](https://raw.githubusercontent.com/MR-YUZL/Menu/master/public/12C(JM(XCR%259FVGX%40D%254TX0.png)
 
