@@ -1,0 +1,113 @@
+// @completeColor:rgba(50, 93, 255, 0.77);
+@completeColor   : #2975C5;
+@unCompleteColor : #eaeaeb;
+
+.contain {
+  display: flex;
+
+  .complete {
+    .minLine {
+      height          : 30px;
+      width           : 4px;
+      background-color: @completeColor;
+      margin          : 0 auto;
+    }
+
+    .circle {
+      width        : 30px;
+      height       : 30px;
+      border-radius: 50%;
+      border       : 4px solid @completeColor;
+      color        : @completeColor;
+      box-sizing   : border-box;
+      text-align   : center;
+      line-height  : 22px;
+    }
+  }
+
+  .unComplete {
+    .minLine {
+      height          : 30px;
+      width           : 4px;
+      background-color: @unCompleteColor;
+      margin          : 0 auto;
+    }
+
+    .circle {
+      width        : 30px;
+      height       : 30px;
+      border-radius: 50%;
+      border       : 4px solid @unCompleteColor;
+      box-sizing   : border-box;
+      color        : @unCompleteColor;
+      text-align   : center;
+      line-height  : 22px;
+    }
+  }
+
+  .name {
+    padding    : 0 5px;
+    width      : 180px;
+    margin-left: 10px;
+
+    .complete {
+      display: flex;
+
+      .tagName {
+        background  : @completeColor;
+        height      : 30px;
+        line-height : 30px;
+        width       : 100px;
+        color       : #ffffff;
+        padding-left: 10px;
+      }
+
+      .triangle {
+        width       : 0;
+        height      : 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent @completeColor;
+      }
+
+      .children {
+        background  : @completeColor;
+        height      : 30px;
+        line-height : 30px;
+        width       : 80px;
+        color       : #ffffff;
+        padding-left: 10px;
+      }
+    }
+
+    .unComplete {
+      display: flex;
+
+      .tagName {
+        background  : @unCompleteColor;
+        height      : 30px;
+        line-height : 30px;
+        width       : 100px;
+        color       : #ffffff;
+        padding-left: 10px;
+      }
+
+      .triangle {
+        width       : 0;
+        height      : 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent @unCompleteColor;
+      }
+
+      .children {
+        background  : @unCompleteColor;
+        height      : 30px;
+        line-height : 30px;
+        width       : 80px;
+        color       : #ffffff;
+        padding-left: 10px;
+      }
+    }
+  }
+}
